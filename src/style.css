@@ -403,15 +403,18 @@ html {
 /* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
+  /* position:sticky; */
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
 }
 .footer-copywright {
+  /* position: absolute; */
   text-align: center !important;
 }
 
 .footer-body {
+  /* position: absolute; */
   text-align: center !important;
 }
 
@@ -610,8 +613,7 @@ html {
 }
 
 .resume {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 0px;
   justify-content: center;
 }
 

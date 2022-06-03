@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 import { ImBlog } from "react-icons/im";
+import { GiSkills } from "react-icons/gi";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -63,6 +64,19 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <GiSkills
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Skills
               </Nav.Link>
             </Nav.Item>
 

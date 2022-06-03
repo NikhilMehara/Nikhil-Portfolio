@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -32,12 +32,11 @@ function ResumeNew() {
             &nbsp;Download CV
           </Button>
         </div>
-
-        <Row className="resume" classname="App">
+        <Container className="resume" classname="App">
           <Document file={resumeLink}>
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
-        </Row>
+        </Container>
 
         <div
           style={{

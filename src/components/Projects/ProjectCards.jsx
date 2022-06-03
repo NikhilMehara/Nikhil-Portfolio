@@ -13,7 +13,10 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <div style={{ display: "grid" }}>
+        <Card.Text>
+          {props.techStack}
+        </Card.Text>
+        <div style={{ display:"flex", flexDirection:"column", alignContent:"flex-end",justifyContent:"unset" }}>
           <Button variant="primary" href={props.link} target="_blank">
             <BiLinkExternal /> &nbsp;
             {props.isBlog ? "View Blog" : "View Project"}

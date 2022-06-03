@@ -8,7 +8,7 @@ import OverStock from "../../Assets/Projects/OverStock.png"
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="project-section" style={{height:"800px"}}>
       <Particle />
       <Container>
         <h1 className="project-heading">
