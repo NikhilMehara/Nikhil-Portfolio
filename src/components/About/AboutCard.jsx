@@ -16,8 +16,7 @@ function AboutCard() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and I believe I have learnt adequate amount of technologies to begin with 🤷‍♂️
               <br />
               <br />I am fluent in classic like
               <i>
