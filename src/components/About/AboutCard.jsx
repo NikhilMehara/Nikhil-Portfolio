@@ -15,32 +15,11 @@ function AboutCard() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I believe I have learnt adequate amount of technologies to begin with 🤷‍♂️
-              <br />
-              <br />I am fluent in classic like
-              <i>
-                <b className="purple"> Javascript. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">Natural Launguage Processing.</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">Modern Javascript Library</b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+            <p className="home-about-body" style={{textAlign:"justify"}}>
+            An aspiring full-stack web developer with a specialization in MERN stack. Seeking
+            a challenging role in a progressive organization that offers immense growth
+            opportunities to implement my knowledge and skills to contribute to the success
+            of the organization.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

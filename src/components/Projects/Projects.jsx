@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import BeautyBebo from "../../Assets/Projects/BeautyBebo.png";
 import coSchedule from "../../Assets/Projects/coSchedule.jpg";
 import OverStock from "../../Assets/Projects/OverStock.png";
+import clockify from "../../Assets/Projects/clockify.png";
 
 function Projects() {
   return (
@@ -19,6 +20,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={clockify}
+              isBlog={false}
+              title="Clockify"
+              description="Clockify is the most popular free time tracker and timesheet app for teams of all sizes. Unlike all the other time trackers, Clockify lets you have an unlimited number of users for free. Clockify is an online app that works in a browser, but you can also install it on your computer or phone for convenience."
+              techStack="HTML | CSS | JavaScript | React | Redux | Git | NodeJS | Express | MongoDB | ChakraUI"
+              link="https://github.com/NikhilMehara/clockifyClone-fixedThread"
+              live="https://clockify-fixedthread.netlify.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={BeautyBebo}
@@ -27,7 +39,7 @@ function Projects() {
               description="Beauty Bebo is India’s fastest growing online retail store for the day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products. We at Beauty Bebo are committed to provide genuine products on fair price to our customers. We bring worlds premium brands and products for you on a single platform. "
               techStack="HTML | CSS | JS | REACT | REDUX"
               link="https://github.com/NikhilMehara/BeautyBebo"
-              live="https://gleaming-hotteok-a2ad5e.netlify.app/"
+              live="https://631c9ac93fbe074a6f5207cb--beautybebo-clone-unit4.netlify.app/"
             />
           </Col>
 

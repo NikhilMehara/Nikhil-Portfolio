@@ -2,7 +2,9 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiNetlify
+  SiNetlify,
+  SiPostman,
+  SiHeroku
 } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 
@@ -17,6 +19,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHeroku />
       </Col>
     </Row>
   );
